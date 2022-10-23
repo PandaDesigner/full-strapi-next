@@ -5,8 +5,6 @@ import { Box, Button, Typography } from '@mui/material'
 const Practica = () => {
 
 
-
-
   return (
     <>
         <Box mt={2} textAlign='center'>
