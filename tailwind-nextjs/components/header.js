@@ -27,7 +27,7 @@ export default function Example() {
                 </svg>
 
                 <Popover>
-                <div className="relative w-full pt-6 pb-6 sm:px-6 lg:px-2 bg-gray-600">
+                <div className="relative  pt-6 pb-6 px-5 sm:px-12 lg:px-3 bg-gray-600">
                     <Navbar navigation={navigation}  />
                 </div>
 
@@ -44,17 +44,17 @@ export default function Example() {
                         focus
                         className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden"
                     >
-                        <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
+                        <div className="overflow-hidden rounded-lg bg-yellow-800 shadow-md ring-1 ring-black ring-opacity-5">
                         <div className="flex items-center justify-between px-5 pt-4">
                             <div>
                             <img
                                 className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                src="https://res.cloudinary.com/dabysu4yd/image/upload/v1666402016/logo_ea3b5f272d.svg?updated_at=2022-10-22T01:26:57.535Z"
                                 alt=""
                             />
                             </div>
                             <div className="-mr-2">
-                            <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                            <Popover.Button className="inline-flex items-center justify-center rounded-md bg-yellow-600 p-2 text-yellow-400 hover:bg-yellow-100 hover:text-yellow-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                                 <span className="sr-only">Close main menu</span>
                                 <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                             </Popover.Button>
@@ -65,7 +65,7 @@ export default function Example() {
                             <a
                                 key={item.name}
                                 href={item.href}
-                                className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                                className="block rounded-md px-3 py-2 text-base font-medium text-yellow-100 hover:bg-yellow-50 hover:text-yellow-900"
                             >
                                 {item.name}
                             </a>
@@ -73,7 +73,7 @@ export default function Example() {
                         </div>
                         <a
                             href="#"
-                            className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"
+                            className="block w-full bg-gray-800 px-5 py-3 text-center font-medium text-yellow-100 hover:bg-gray-900"
                         >
                             Log in
                         </a>
@@ -116,7 +116,7 @@ export default function Example() {
             </div>
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <img
-                className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full hero-bg"
+                className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
                 src="https://res.cloudinary.com/dabysu4yd/image/upload/v1666402016/header_2a3d58d564.jpg?updated_at=2022-10-22T01:26:56.884Z"
                 alt=""
                 />
