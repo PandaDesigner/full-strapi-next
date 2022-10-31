@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import Logo from '../../public/img/logo.svg'
 import BtnMenu from './btnMenu'
-import styles from '../../styles/header.module.css'
 
 
 const navigation = [
