@@ -10,7 +10,7 @@ const navigation = [
 
 const Footer = () => {
   return (
-    <footer className='bg-red-500'>
+    <footer className='bg-slate-500'>
         <div className='container flex flex-wrap mx-auto items-center'>
             <div className='w-3/4 '>
             <h1 className='flex-1'>Footer</h1>
@@ -22,7 +22,7 @@ const Footer = () => {
                 key={name}
                 href={href}>
                         <a
-                            className={`block rounded-md px-3 py-2 text-base font-medium ease-in-out duration-300 hover:text-gray-100 text-yellow-500 hover:bg-yellow-500/25  items-end}`}
+                            className={`block rounded-md px-3 py-1 text-base font-medium ease-in-out duration-300 hover:text-gray-100 text-yellow-500 items-end}`}
                             >
                             {name}
                         </a>
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
             <div className='w-4/4 w-[100%] text-center  text-white py-2'>
                 <p>
-                    web hecha por pedro fernandez
+                    Todos los derechos Reservados {new Date().getFullYear()}
                 </p>
             </div>
         </div>
