@@ -1,19 +1,25 @@
-import Hero from "../components/hero";
-import Header from "../components/header"
-import Homes from "../components/layout/homes";
+import Image from "next/image";
+import Layout from "../components/layout";
+import logo from "../public/img/logo.svg"
 
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-]
+const page = {
+  title: 'Home',
+  description: 'Pagina especializada en la distribucion de instrumentos musicales de la mejor calidad'
+}
+
+const { title, description } = page
 
 const  Home = () => {
   return (
     <>
-    <Homes navigation={navigation}/>
-      {/* <Header/> */}
+    <Layout
+    title={title}
+    description={description}
+    >
+      <h1 className="text-2xl mt-2 ml-5 uppercase font-bold">desde Home</h1>
+
+    </Layout>
+
     </>
   )
 }
