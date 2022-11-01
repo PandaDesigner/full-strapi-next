@@ -14,7 +14,7 @@ const Contact = () => {
     title={title}
     description={description}
     >
-        <h1 className="text-2xl mt-2 ml-5 uppercase font-bold">Contact</h1>
+        <h1 className="text-3xl uppercase font-bold text-center">Contact</h1>
     </Layout>
   )
 }

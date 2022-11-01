@@ -15,7 +15,7 @@ const  Home = () => {
     title={title}
     description={description}
     >
-      <h1 className="text-2xl mt-2 ml-5 uppercase font-bold">desde Home</h1>
+      <h1 className="text-3xl uppercase font-bold text-center text-yellow-500">desde Home</h1>
 
     </Layout>
 

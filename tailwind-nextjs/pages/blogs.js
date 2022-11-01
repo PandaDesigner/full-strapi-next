@@ -15,7 +15,7 @@ const Blogs = () => {
     description={description}
     >
         <div className='container'>
-        <h1 className="text-2xl mt-2 ml-5 uppercase font-bold">{title}</h1>
+        <h1 className="text-3xl uppercase font-bold text-center">{title}</h1>
         </div>
     </Layout>
   )

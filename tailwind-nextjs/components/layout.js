@@ -9,7 +9,7 @@ const Layout = ({children, title = '', description = ''}) => {
                 <meta name='description' content={description} />
               </Head>
             <NavBar/>
-            <div className={`container mx-auto`}>
+            <div className={`container mx-auto py-5`}>
             {children}
             </div>
             <Footer/>
