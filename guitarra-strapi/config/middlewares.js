@@ -1,15 +1,4 @@
-/**
-    * @description      : 
-    * @author           : 
-    * @group            : 
-    * @created          : 20/10/2022 - 22:18:12
-    * 
-    * MODIFICATION LOG
-    * - Version         : 1.0.0
-    * - Date            : 20/10/2022
-    * - Author          : 
-    * - Modification    : 
-**/
+
 module.exports = [
   'strapi::errors',
     {
