@@ -38,21 +38,19 @@ const VirtualShop = ({guitarra}) => {
 }
 
 export default VirtualShop;
-/* 
+
 export async function getStaticProps(){
 
-  const res = await fetch(`${process.env.API_URL}/guitarras/?populate=*`)
-  const { data:guitarra } = await res.json()
+  const resp = await fetch(`${process.env.API_URL}/guitarras/?populate=*`)
+  const { data:guitarra } = await resp.json()
   return {
      props:{
       guitarra
      }
   }
-
 }
- */
 
-
+/* 
 export async function getServerSideProps(){
 
   const res = await fetch(`${process.env.API_URL}/guitarras/?populate=*`)
@@ -64,5 +62,5 @@ export async function getServerSideProps(){
   }
 
 }
-
+ */
 

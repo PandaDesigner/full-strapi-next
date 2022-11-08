@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_efigens",
+  "info": {
+    "singularName": "blog-efigen",
+    "pluralName": "blog-efigens",
+    "displayName": "Blog Efigen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "URL": {
+      "type": "uid",
+      "targetField": "Titulo"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
